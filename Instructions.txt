@@ -1,0 +1,63 @@
+In the zip file attached to this email includes 4 files:
+	- ex1.css
+		- stylsheet
+	- ex1.html
+		- html file
+		- there is a script at the bottom with a template for the table you will be rendering
+	- ex1.js
+		- javascript file containing the logic
+
+
+RULES:
+    -You can use whatever resources you want. This is the real world, and google is your friend.
+    -StackOverflow is your best friend. Having an issue? Someone else had that same issue in 2016, and dankCoder419 gave
+    a really elegant solution that solves your problem.
+    -There is a separate css and js file for a reason, don't put any css or js in the html file. That's gross.
+    -I like doing some things from scratch, but there comes a time when its more efficient to use a library.
+        -Ex: Material UI, Tabulator, Bootstrap, etc.
+    -Wash your hands before and after submitting your code.
+
+Your instructions:
+1.Fetch the json data using the getUsers() method. I have provided the url in the comment above the method
+    - Hint: console.log() is your best friend for verifying you are actually
+	 retrieving the data and see what it looks like.
+
+2. Your fetched data will be an array of users (i.e: [{name:"Bob", email: "example@email.com"}, {name:"Joe", email: "example2@email.com"}]).
+ You will need to sort these users alphabetically using the sortUsers() method and your own implemented logic.
+ There will be extra attributes to the users you don't need to worry about.
+	-NOTE: you don't need to implement any sorting algorithms, you can use javascripts built-in functions
+
+3.After the users are sorted, you will render the page using the render() method provided. I recommend looking up
+ mustache js to figure out how it works. You won't have to change anything in the render method, but you will need to
+ edit the template at the bottom of ex1.html.
+	- NOTE: You only need to render: NAME, EMAIL, and PHONE attributes.
+	- NOTE 2: Have experience in React? Feel free to use react-app to implement a view (Big brownie points). Probably don't do this if you've
+	never written js before or you're going to have a bad time, m'kay.
+	- HINT: You will need to rerender on click
+
+4. Great, you rendered the data but it looks like a hot steamy pile of text garbage. Make it look better. You can do it,
+ I believe you. Edit the ex1.css
+	- Do whatever you want for this to make the page look better.
+	- Give the page a footer? Idc, up to you
+	- CSS transitions? Seriously idc. But hey, google makes some good stuff if you want inspiration
+
+
+5.BONUS: Add an event listener to the provided button that calls the sort function to re-sort the users in ascending to descending order or vice versa. If you're feeling really spicy, you can add another button that sorts by your attribute of choice. 
+6. BONUS BONUS: Instead of buttons, make the column header clickable to do the sort.
+
+
+If you've completed the above tasks and are feeling a little spicy, you can make it do whatever you want to show off
+your ability to code (or copy from stackoverflow in an elegant way). Use whatever library your heart desires.
+Make the table display random celebrity faces for each user? Sure, why not. Implement machine learning to pick the most
+likely person to go on a date with you? That's a little weird, but okay. You get the gist.
+
+If your spice level is Ghost Pepper, you can attempt to get this all running and served from a docker container
+*cough*
+https://medium.com/code-to-express/https-medium-com-kumarnitish-hosting-static-site-using-nginx-web-server-in-docker-container-167b31df70bb
+*cough*
+
+
+
+I'm the lead engineer on this project and available as a resource if you have questions or get hard stuck, just shoot me an email:
+
+DieterGrosswiler@montana.edu

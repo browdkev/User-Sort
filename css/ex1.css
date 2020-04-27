@@ -1,0 +1,51 @@
+//Color Palette
+//#FCA311, #01295F, #004FFF, #5D737E, #000000
+
+table{
+  border-collapse: collapse;
+  width: 80%;
+  border: 1px solid black;
+  margin-left:10%;
+  margin-right:10%;
+  background-color: #01295F;
+  margin-bottom: 15px;
+  font-family: 'Space Mono', monospace;
+  color: white;
+}
+
+th, td {
+  text-align: left;
+  padding: 15px;
+}
+
+td{
+  border-top: 2px solid #FCA311;
+}
+
+tr:hover {background-color: #004FFF;}
+
+footer{
+  padding-top: 30px;
+}
+
+body{
+  text-align: center;
+  background-color: #5D737E;
+}
+
+button{
+  padding: 10px;
+  background-color: #FCA311;
+  border-color: black;
+  border-style: ridge;
+}
+
+select{
+  background-color: #01295F;
+  border-color: black;
+}
+
+h1{
+  font-family: 'Space Mono', monospace;
+  font-size: 48px;
+}
